@@ -14,6 +14,8 @@ int main ()
   bool a=false,b=false;
   
   cout << a << b;
+  // OL: Cette ligne est illisible, en plus elle est aussi dans un autre projet !!!! Ca ne va pas.
+  // Il faut la réécrire immédiatement
   for (;;((a==0 && b==0)?(h++, k++):((a==1 && b==0)? (h--,k++): ((a==1 && b==1)?(h--, k--): (h++, k--)))))
 	{
 	  for (int i=0; i<row; i++)

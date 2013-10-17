@@ -5,7 +5,8 @@
 
 using namespace std;
 
-
+// OL: il faut changer le nom du fichier, par exemple: question1.cpp
+// il faut absolument que le fichier termine par .cpp ou .cc
 
 int main ()
 {
@@ -15,7 +16,7 @@ int main ()
   
   cout << a << b;
   // OL: Cette ligne est illisible, en plus elle est aussi dans un autre projet !!!! Ca ne va pas.
-  // Il faut la réécrire immédiatement
+  // Il faut la rï¿½ï¿½crire immï¿½diatement
   for (;;((a==0 && b==0)?(h++, k++):((a==1 && b==0)? (h--,k++): ((a==1 && b==1)?(h--, k--): (h++, k--)))))
 	{
 	  for (int i=0; i<row; i++)

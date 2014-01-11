@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background:url(img/images.jpg);
+	color : white;
+
+}
+.menubar
+{
+	width : 200px;
+	float : left;
+	border-right:double 5px #8A2BE2;
+	}
+.menubar img 
+{
+	width : 200px;
+	height : 160px;
+	
+}
+
+.menubar a
+{
+	text-decoration:none;
+	color: white;
+	font-weight:bold;
+
+}
+
+.menubar ul
+{
+	list-style-type:none;
+}
+
+#membres
+{
+	margin-top : 30px;
+}
+
+#membres ul {
+margin : 0;
+padding :0;
+text-align : center ;
+}
+#membres > ul > li > a
+{
+	font-size: 24px;
+}
+		
+#membres li {
+float : left ;
+margin : auto ;
+padding : 0;
+}
+
+#membres li a {
+display : block ;
+width : 200px;
+color : white ;
+padding :5px;
+font-weight:bold;
+font-size: 18px;
+ }
+
+#membres li a:hover {
+ color : #00FFFF ;
+ }
+#membres ul li ul {
+ display : none ;
+}
+
+#membres ul li:hover ul {
+ display : block ;
+ }
+ 
+ #membres li:hover ul li {
+ float : none ;
+}
+
+#membres
+{
+	 clear : left;
+
+}
+#pong
+{
+	margin-top : 270px;
+	clear : left;
+}
+
+#pong ul {
+margin : 0;
+padding :0;
+text-align : center ;
+}
+#pong > ul > li > a
+{
+	font-size: 22px;
+}
+		
+#pong li {
+float : left ;
+margin : auto ;
+padding : 0;
+}
+
+#pong li a {
+display : block ;
+width : 200px;
+color : white ;
+padding :5px;
+font-weight:bold;
+font-size: 20px;
+ }
+
+#pong li a:hover {
+ color : #00FFFF ;
+ }
+#pong ul li ul {
+ display : none ;
+}
+
+#pong ul li:hover ul {
+ display : block ;
+ }
+ 
+ #pong li:hover ul li {
+ float : none ;
+}
+
+#projet
+{
+	margin-top : 160px;
+	 clear : left;
+}
+
+#projet ul {
+margin : 0;
+padding :0;
+text-align : center ;
+}
+#projet > ul > li > a
+{
+	font-size: 22px;
+}
+		
+#projet li {
+float : left ;
+margin : auto ;
+padding : 0;
+}
+
+#projet li a {
+display : block ;
+width : 200px;
+color : white ;
+padding :5px;
+font-weight:bold;
+font-size: 20px;
+ }
+
+#projet li a:hover {
+ color : #00FFFF ;
+ }
+#projet ul li ul {
+ display : none ;
+}
+
+#projet ul li:hover ul {
+ display : block ;
+ }
+ 
+ #projet li:hover ul li {
+ float : none ;
+}

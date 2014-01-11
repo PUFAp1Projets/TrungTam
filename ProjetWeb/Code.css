@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menubar
+{
+	height : 3400px;
+}
+.code
+{
+	font-size : 18px;
+	margin-top: 50px;
+	width: 1130px;
+	top: 0;
+	right: 0;
+	clear: both;
+	position: absolute;
+	
+}
+.code h1
+{
+		margin-left : 300px;
+}
+.code #jouer
+{
+	margin-top : 50px;
+	margin-left: 250px;
+}
+
+.code #jouer p
+{
+	font-size : 24px;
+	color:#3FF;
+	font-weight:bold;
+}
+.code #jouer pre
+{
+	overflow:scroll;
+	height:  250px;
+	width : 600px;
+	margin-bottom : 100px;
+}
+

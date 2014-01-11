@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.menubar
+{
+	height : 670px;
+}
+#intro
+{
+	font-size : 18px;
+	margin-top : 100px;
+	padding : 20px;
+	margin-left : 350px;
+	width: 800px;
+	clear: both;
+	position: absolute;
+	border: double 5px #FF9933;
+	
+}
+
+#intro h1 
+{
+	text-align:center;
+}
+
+#intro div
+{
+	font-size: 18px;
+	width : 800px;
+}
+
+#intro div b
+{
+	font-size: 20px;
+}
+
+#intro div em
+{
+	color: #09F;
+	font-style: inherit;
+}

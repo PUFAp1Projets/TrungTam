@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.menubar
+{
+	height : 1300px;
+}
+
+#present
+{
+	font-size : 18px;
+	margin-top : 100px;
+	padding : 20px;
+	margin-left : 350px;
+	width: 800px;
+	clear: both;
+	position: absolute;
+	border: double 5px #FF9933;
+
+}
+
+#present img
+{
+	width: 600px;
+	height: 300px;
+	margin-left : 100px;
+}
+
+#present h1
+{
+	color : white;
+	font-weight: bold;
+	margin-left: 300px;
+}
+
+#presentation
+{
+	width : 500px;
+	text-align : center;
+	font-size: 18px;
+	margin-left : 160px;
+
+}

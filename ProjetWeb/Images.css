@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.menubar
+{
+	height : 1700px;
+}
+#image
+{
+	margin-top : 50px;
+	width : 1136px;
+	top : 0;
+	right : 0;
+	clear : both;
+	position: absolute;
+}
+
+h1
+{
+	margin-left : 300px;
+	font-size: 40px;
+}
+
+#image img
+{
+	margin : 20px 0px 20px 350px;
+	text-align: center;
+	width : 450px;
+	height : 300px;
+	border: solid 5px white;
+}
